@@ -12,8 +12,8 @@ INPUT_FILE = 'bbtor.jpg'
 OUTPUT_FILE = 'output.png'
 
 # Experiment with these parameters
-SAMPLE_SIZE = 1000
-DEPTH = 3
+SAMPLE_SIZE = 50000
+DEPTH = 200
 
 # read an input RGB image
 im = Image.open(INPUT_FILE)
