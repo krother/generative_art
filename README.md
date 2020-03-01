@@ -13,13 +13,14 @@ Here you find NumPy exercises that create images.
 
 ## Elementary Geometry
 
-| Challenge | Topic |
+| Example | Topic |
 |-----------|--------|
 | [Dots](dots/) | Indexing |
 | [Flags](flags/) | Slicing |
 | [Circles](circles/) | Euclidean Distances |
+| [Mask](mask/) | Indexing |
 
-## Examples using Machine Learning
+## Machine Learning
 
 | Example | Topic |
 |-----------|--------|
@@ -38,7 +39,7 @@ Here you find NumPy exercises that create images.
 
 (c) 2019 Dr. Kristian Rother (`krother@academis.eu`)
 
-Distributed under the conditions of the MIT License. See `LICENSE for details
+Distributed under the conditions of the MIT License. See `LICENSE` for details.
 
 ## References
 
