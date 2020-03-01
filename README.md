@@ -1,34 +1,31 @@
 
-# Generative Art in Python
+# Generative Art with NumPy
+
+Here you find NumPy exercises that create images.
 
 ## Installation
 
-**Step 1.** Clone the repository
+**Step 1.** Clone the repository from [github.com/krother/generative_art](https://github.com/krother/generative_art)
 
 **Step 2.** Install the libraries:
 
     pip install -r requirements.txt
 
-## K-Means Clustering
+## Elementary Geometry
 
-    python decolorize.py
+| Challenge | Topic |
+|-----------|--------|
+| [Dots](dots/) | Indexing |
+| [Flags](flags/) | Slicing |
+| [Circles](circles/) | Euclidean Distances |
 
-![](kmeans.png)
+## Examples using Machine Learning
 
-## Decision Tree Classifier
-
-    python decision_tree.py
-
-![](decision_tree.png)
-
-## Monte Carlo Sampling
-
-    python mosaic_generator.py
-
-![](montecarlo.png)
-
-    python animation.py
-
+| Example | Topic |
+|-----------|--------|
+| [K-Means](kmeans/) | Clustering |
+| [Decision Tree](dtree/) | Color prediction |
+| [Monte Carlo](montecarlo/) | Sampling |
 
 
 ## More Generative Artists
