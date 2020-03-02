@@ -17,6 +17,7 @@ Here you find NumPy exercises that create images.
 |-----------|--------|
 | [Dots](dots/) | Indexing |
 | [Flags](flags/) | Slicing |
+| [Triangles](triangles/) | Matrix operations |
 | [Circles](circles/) | Euclidean Distances |
 | [Mask](mask/) | Indexing |
 
