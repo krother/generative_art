@@ -1,6 +1,6 @@
 
-from PIL import Image
 import numpy as np
+import imageio
 
 OUTPUT_FILE = "lines.png"
 
@@ -15,5 +15,5 @@ draw_line(a, 50, 50, 350, 50)
 draw_line(a, 50, 50, 350, 350)
 draw_line(a, 50, 50, 200, 350)
 draw_line(a, 50, 50, 350, 200)
-im = Image.fromarray(a, 'L')
-im.save(OUTPUT_FILE)
+
+imageio.imsave('lines.png', a)

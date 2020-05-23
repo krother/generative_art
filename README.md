@@ -9,6 +9,7 @@ Here you find NumPy exercises that create images.
 
 **Step 2.** Install the libraries:
 
+    :::bash
     pip install -r requirements.txt
 
 ## Elementary Geometry
