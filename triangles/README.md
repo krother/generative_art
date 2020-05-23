@@ -3,7 +3,7 @@
 
 Arithmetics on a vector with its own transpose results in a matrix.
 
-Cropping
+Cropping selects a triangular section.
 
 ![](../images/corner.png)
 
