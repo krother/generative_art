@@ -2,15 +2,19 @@
 # Random Blur
 
 The `np.random` module contains many random functions.
-We can use them to generate random pixes:
+We can use them to generate random pixels:
 
 ![](../images/blur.png)
+
+The `np.random.ranint()` function uses the uniform distribution:
+
+:::include blur.py
 
 Print the array to take a look at the values:
 
     :::python3
     print(a)
-    
+
 ----
 
 ## Challenges:
