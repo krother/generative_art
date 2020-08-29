@@ -7,4 +7,3 @@ a[100:200, 200:299, 0] = 255
 
 im = Image.fromarray(a)
 im.save('area.png')
-im.show()

@@ -1,23 +1,45 @@
 
 # Generative Art with NumPy
 
-Here you find NumPy exercises that create images.
+In this tutorial you find NumPy exercises that create images.
+
+![title image](images/title.png)
+
+It is meant as a gentle introduction to NumPy.
+It assumes that you have made your first steps with Python already.
+To get the best out of it, put it into practice immediately:
+
+**paint things – create art – have fun!**
+
+----
 
 ## Installation
 
-**Step 1.** Clone the repository from [github.com/krother/generative_art](https://github.com/krother/generative_art)
+If you are using the [Anaconda distribution](https://www.anaconda.com/), you should have all necessary libraries already.
 
-**Step 2.** Install the libraries:
+Otherwise, download or clone the git repository [github.com/krother/generative_art](https://github.com/krother/generative_art) and install the libraries using `pip`:
 
     :::bash
     pip install -r requirements.txt
+
+Next, try the examples and challenges.
+
+----
+
+## First Steps
+
+| Example | Topic |
+|-----------|--------|
+| [Grayscale](grayscale/) | Create a grayscale image |
+| [Color](rgb/) | Create a RGB image |
+| [Flags](flags/) | Slicing |
+
 
 ## Elementary Geometry
 
 | Example | Topic |
 |-----------|--------|
 | [Dots](dots/) | Indexing |
-| [Flags](flags/) | Slicing |
 | [Triangles](triangles/) | Matrix operations |
 | [Circles](circles/) | Euclidean Distances |
 | [Mask](mask/) | Indexing |
@@ -30,6 +52,7 @@ Here you find NumPy exercises that create images.
 | [Decision Tree](dtree/) | Color prediction |
 | [Monte Carlo](montecarlo/) | Sampling |
 
+----
 
 ## More Generative Artists
 
@@ -37,11 +60,15 @@ Here you find NumPy exercises that create images.
 * [Flowerbot by Bleeptrack](https://blptrck.uber.space/flower/)
 * [GalaxyKate](http://galaxykate.com/)
 
+----
+
 ## Contact
 
 (c) 2019 Dr. Kristian Rother (`krother@academis.eu`)
 
 Distributed under the conditions of the MIT License. See `LICENSE` for details.
+
+----
 
 ## References
 
