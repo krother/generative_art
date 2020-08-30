@@ -41,6 +41,7 @@ Next, try the examples and challenges.
 | Example | Topic |
 |-----------|--------|
 | [Dots](dots/) | Indexing |
+| [Gradient](gradient/) | Linear space |
 | [Triangles](triangles/) | Matrix operations |
 | [Circles](circles/) | Euclidean Distances |
 | [Mask](mask/) | Indexing |
