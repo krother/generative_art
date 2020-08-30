@@ -1,6 +1,6 @@
 
 import numpy as np
-import imageio
+from PIL import Image
 
 x = np.arange(200).reshape(200, 1)
 
@@ -9,4 +9,5 @@ a[a <= 200] = 1
 a[a > 200] = 0
 a *= 200
 
-imageio.imsave('corner.png', a.astype(np.uint8))
+im = Image.fromarray(a.astype(np.uint8))
+im.save('corner.png')

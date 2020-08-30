@@ -1,5 +1,5 @@
 
-import imageio
+from PIL import Image
 import numpy as np
 
 def circle(a, xcenter, ycenter, radius, color):
@@ -15,4 +15,5 @@ color = np.array([255, 128, 0], np.uint8)
 a = np.zeros((400, 400, 3), np.uint8)
 circle(a, xcenter, ycenter, radius, color)
 
-imageio.imsave('circle.png', a)
+im = Image.fromarray(a)
+im.save('circle.png')
