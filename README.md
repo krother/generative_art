@@ -61,11 +61,11 @@ Next, try the examples and challenges.
 | Example | Topic |
 |-----------|--------|
 | [Rotation](rotate/) | Rotation figure |
+| [Shadow](shadow/) | shadow using a mask |
 | [Warhol](warhol/) | Color channels |
 | [Mandelbrot](mandelbrot/) | Recursive graphics |
 | [Hexpanda](hexpanda/) | Hexbin plot |
 | [Vortex](vortex/) | Animation |
-
 
 
 ----
