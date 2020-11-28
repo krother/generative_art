@@ -61,6 +61,7 @@ Next, try the examples and challenges.
 |-----------|--------|
 | [Rotation](rotate/) | Rotation figure |
 | [Warhol](warhol/) | Color channels |
+| [Mandelbrot](mandelbrot/) | Recursive graphics |
 | [Hexpanda](hexpanda/) | Hexbin plot |
 | [Vortex](vortex/) | Animation |
 
