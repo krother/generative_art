@@ -59,6 +59,7 @@ Next, try the examples and challenges.
 
 | Example | Topic |
 |-----------|--------|
+| [Rotation](rotate/) | Rotation figure |
 | [Warhol](warhol/) | Color channels |
 | [Hexpanda](hexpanda/) | Hexbin plot |
 | [Vortex](vortex/) | Animation |
