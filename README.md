@@ -34,6 +34,7 @@ Next, try the examples and challenges.
 | [Color](rgb/) | Create a RGB image |
 | [Random Blur](random_blur/) | Create random pixels |
 | [Flags](flags/) | Slicing |
+| [Repeat](repeat/) | Repeating tiles |
 
 
 ## Elementary Geometry
