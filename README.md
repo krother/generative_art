@@ -59,6 +59,7 @@ Next, try the examples and challenges.
 
 | Example | Topic |
 |-----------|--------|
+| [Warhol](warhol/) | Color channels |
 | [Vortex](vortex/) | Animation |
 
 
