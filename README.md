@@ -1,5 +1,5 @@
 
-# Generative Art with NumPy
+# Graphics with NumPy
 
 In this tutorial you find NumPy exercises that create images.
 
