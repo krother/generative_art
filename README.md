@@ -55,6 +55,14 @@ Next, try the examples and challenges.
 | [Decision Tree](dtree/) | Color prediction |
 | [Monte Carlo](montecarlo/) | Sampling |
 
+## Effects
+
+| Example | Topic |
+|-----------|--------|
+| [Vortex](vortex/) | Animation |
+
+
+
 ----
 
 ## More Generative Artists
