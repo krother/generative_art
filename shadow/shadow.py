@@ -1,11 +1,10 @@
 
-import imageio
+from PIL import Image
 import numpy as np
 
-a = imageio.imread("bbtor.jpg")
+a = np.array(Image.open("bbtor.jpg"))
 
 mask = a[:,:,2] > 180
-a[mask] = 255
 
 shadow = np.ones(a.shape, dtype=np.uint8) * 127
 shadow[mask] = 255

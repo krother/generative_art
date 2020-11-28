@@ -54,6 +54,7 @@ Next, try the examples and challenges.
 |-----------|--------|
 | [K-Means](kmeans/) | Clustering |
 | [Decision Tree](dtree/) | Color prediction |
+| [Convolution](convolution/) | CNN kernel |
 | [Monte Carlo](montecarlo/) | Sampling |
 
 ## Effects
