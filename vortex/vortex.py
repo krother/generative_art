@@ -1,4 +1,3 @@
-# requires pip install array2gif
 
 from scipy.ndimage import imread, rotate
 from scipy.misc import imsave
