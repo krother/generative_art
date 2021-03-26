@@ -5,7 +5,7 @@
 
 ![](../images/puzzle_pieces.png)
 
-Assemble the complete picture from [these pieces](../images/pieces.zip)
+Assemble the complete picture from [these pieces](http://www.academis.eu/static/content/generative_art/pieces.zip)
 
 Here is the code that assembles two of the pieces:
 
