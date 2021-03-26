@@ -64,6 +64,7 @@ Next, try the examples and challenges.
 | [Rotation](rotate/) | Rotation figure |
 | [Shadow](shadow/) | shadow using a mask |
 | [Warhol](warhol/) | Color channels |
+| [Puzzle](puzzle/) | vstack and hstack |
 | [Mandelbrot](mandelbrot/) | Recursive graphics |
 | [Hexpanda](hexpanda/) | Hexbin plot |
 | [Vortex](vortex/) | Animation |
