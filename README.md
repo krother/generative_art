@@ -66,6 +66,7 @@ Next, try the examples and challenges.
 | [Warhol](warhol/) | Color channels |
 | [Puzzle](puzzle/) | vstack and hstack |
 | [Contour Lines](contour/) | Gaussian Mixture |
+| [Edge Detection](sobel/) | Sobel Operator |
 | [Mandelbrot](mandelbrot/) | Recursive graphics |
 | [Hexpanda](hexpanda/) | Hexbin plot |
 | [Vortex](vortex/) | Animation |
