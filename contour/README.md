@@ -11,6 +11,8 @@
 4. sum up the hills
 5. scale and round the height to regular steps
 
+You can put in any number of hills.
+
 :::include contour.py
 
 ### Lines only
@@ -18,3 +20,7 @@
 With a modulo instead of the rounded steps you get to see the contour lines or isolines:
 
 ![](../images/contour_isolines.png)
+
+### Challenge
+
+Generate random hill centers + sizes.
