@@ -41,7 +41,7 @@ Next, try the examples and challenges.
 
 | Example | Topic |
 |-----------|--------|
-| [Dots](dots/) | Indexing |
+| [Stars](stars/) | Indexing |
 | [Lines](lines/) | Arithmetics |
 | [Gradient](gradient/) | Linear space |
 | [Triangles](triangles/) | Matrix operations |
@@ -65,6 +65,7 @@ Next, try the examples and challenges.
 | [Shadow](shadow/) | shadow using a mask |
 | [Warhol](warhol/) | Color channels |
 | [Puzzle](puzzle/) | vstack and hstack |
+| [Contour Lines](contour/) | Gaussian Mixture |
 | [Mandelbrot](mandelbrot/) | Recursive graphics |
 | [Hexpanda](hexpanda/) | Hexbin plot |
 | [Vortex](vortex/) | Animation |
