@@ -27,3 +27,5 @@ If you are using **Jupyter Notebook**, you can conveniently display any Pillow i
 * create a rectangular image
 * create a black square-shaped image
 * create an image that is entirely white
+
+![](../images/gray_challenge.png)
