@@ -27,3 +27,5 @@ Using sliced assignments, you can modify each color channel separately.
 * create a purple rectangle
 * create an orange rectangle
 * create a white image
+
+![](../images/rgb_challenge.png)
