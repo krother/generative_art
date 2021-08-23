@@ -9,4 +9,10 @@ Whether the code gets any easier remains to be seen.
 
 :::include repeat.py
 
+----
+
+### Challenge
+
+Put together your own or random colors:
+
 ![](../images/repeat_challenge.png)
