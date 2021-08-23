@@ -1,5 +1,5 @@
 
-# Dots
+# Stars
 
 **Index arrays with integer arrays to create dots.**
 
