@@ -67,6 +67,7 @@ Next, try the examples and challenges.
 | [Puzzle](puzzle/) | vstack and hstack |
 | [Contour Lines](contour/) | Gaussian Mixture |
 | [Edge Detection](sobel/) | Sobel Operator |
+| [Dragon Curve](dragon_curve/) | Recursive graphics |
 | [Mandelbrot](mandelbrot/) | Recursive graphics |
 | [Hexpanda](hexpanda/) | Hexbin plot |
 | [Vortex](vortex/) | Animation |
