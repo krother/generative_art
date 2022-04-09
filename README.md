@@ -47,6 +47,7 @@ Next, try the examples and challenges.
 | [Triangles](triangles/) | Matrix operations |
 | [Circles](circles/) | Euclidean Distances |
 | [Mask](mask/) | Indexing |
+| [Meme Generator](memegen/) | Adding text with Pillow |
 
 ## Machine Learning
 
@@ -70,7 +71,6 @@ Next, try the examples and challenges.
 | [Dragon Curve](dragon_curve/) | Recursive graphics |
 | [Mandelbrot](mandelbrot/) | Recursive graphics |
 | [Hexpanda](hexpanda/) | Hexbin plot |
-| [Postcard](postcard/) |  |
 | [Flower Assembly](flower_movie/) | Animation |
 | [Vortex](vortex/) | Animation |
 
