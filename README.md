@@ -70,6 +70,8 @@ Next, try the examples and challenges.
 | [Dragon Curve](dragon_curve/) | Recursive graphics |
 | [Mandelbrot](mandelbrot/) | Recursive graphics |
 | [Hexpanda](hexpanda/) | Hexbin plot |
+| [Postcard](postcard/) |  |
+| [Flower Assembly](flower_movie/) | Animation |
 | [Vortex](vortex/) | Animation |
 
 
