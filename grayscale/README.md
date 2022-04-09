@@ -1,5 +1,5 @@
 
-# Grayscale Images
+# Creating Images
 
 The Pillow library can draw two-dimensional NumPy arrays as grayscale images:
 

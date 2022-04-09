@@ -11,6 +11,7 @@ Cropping selects a triangular section.
 
 ### Hints
 
+* the code only works for triangles with two edges parallel to the axes of the coordinate system
 * the instruction `a.T` *transposes* the array
 * the conditional assignment allows you to set only a part of the values in an array
 
@@ -18,6 +19,6 @@ Cropping selects a triangular section.
 
 ## Challenge:
 
-Create multiple triangles.
+Create multiple straight-edge triangles.
 
 ![](../images/triangles.png)

@@ -1,5 +1,5 @@
 
-# RGB Images
+# Color
 
 With a three-dimensional array you get a RGB image.
 

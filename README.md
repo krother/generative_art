@@ -30,7 +30,7 @@ Next, try the examples and challenges.
 
 | Example | Topic |
 |-----------|--------|
-| [Grayscale](grayscale/) | Create a grayscale image |
+| [Creating Images](grayscale/) | Create a grayscale image |
 | [Color](rgb/) | Create a RGB image |
 | [Random Blur](random_blur/) | Create random pixels |
 | [Flags](flags/) | Slicing |

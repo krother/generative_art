@@ -55,12 +55,12 @@ def dragon(fwd, depth):
         return dragon(fwd + 'R' + bwd, depth-1)
 
 
-dragon('R', 4)
-
 a = np.zeros((600, 850, 3), dtype=np.uint8)
 lightblue = (0, 128, 255)
 
 seq = dragon('R', 12)
+print(seq)
+
 draw_sequence(a, seq,
               pos=(500, 150),
               size=4,
