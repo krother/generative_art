@@ -10,6 +10,7 @@ import time
 import imageio
 
 YELLOW = (0, 255, 255)
+WHITE = (255, 255, 255)
 
 text = open('message.txt')
 
@@ -22,37 +23,35 @@ indices = {}
 
 # pre-calculate index arrays for each row
 # to speed up display
-c = 400
+c = 300
+xx = np.arange(0, 1400)
+
 for yy in range(1, 800):
     y = 1 - yy / 800
-    src = []
-    dest = []
-    for xx in range(1400):
-        x = xx - 700
-        x0 = int(x - (x * y) / (y - 1))
-        y0 = int(-y * c / (y - 1))
+    y0 = int(-y * c / (y - 1))
 
-        x0 += 600
-        if 0 <= x0 < 1400:
-            src.append(x0)
-            dest.append(xx)
-    
-    src = np.array(src).astype(int)
-    dest = np.array(dest).astype(int)
+    x = xx - 700
+    x0 = (x - (x * y) / (y - 1)).astype(int)
+    x0 += 600
+
+    idx = np.where((x0 >= 0) * (x0 < 1400))
+    src = x0[idx]
+    dest = xx[idx]
     indices[yy] = (y0, src, dest)
 
 ofs = 0
 frames = []
 
+background = np.zeros((800, 1400, 3), np.uint8)
+
 while True:
     # display frames
-    background = np.zeros((800, 1400, 3), np.uint8)
+    frame = background.copy()
     for yy in range(1, 800):
         y0, src, dest = indices[yy]
         if 0 <= y0 < 800:
-            background[yy][dest] = msg[-y0 + ofs][src]
+            frame[yy][dest] = msg[-y0 + ofs][src]
     
-    frame = background.copy()
     cv2.imshow('frame', frame)
 
     ofs += 1
