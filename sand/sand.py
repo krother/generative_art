@@ -1,19 +1,18 @@
 
 import random
-from traceback import format_exc
 import numpy as np
 import cv2
 import time
+import imageio
 
 BLACK = (0, 0, 0)
-GRAY = (64, 64, 64)
-WHITE = (255, 255, 255)
 BEIGE = (128, 192, 255)
 
-GRAIN_SIZE = 1
+GRAIN_SIZE = 3  # smaller looks better but also slower
 
 MAXX = 1200
 MAXY = 550
+
 
 class GrainOfSand:
     """
@@ -24,9 +23,15 @@ class GrainOfSand:
         self._y = y
         self.ymod = random.randint(-30, 30) / 10
         self.xtarget = xtarget
-        self.speed = random.randint(-20, 20) / 10
-        self.growth = 1.1
+        self.xspeed = random.randint(-20, 20) / 10
+        self.xgrowth = 1.1  # multiplier for xspeed
         self.delay = max(0, int(random.gauss(65, 20)))
+
+        # randomize color a little
+        self.color = list(BEIGE)
+        self.color[0] += random.randint(-50, 50)
+        self.color[1] += random.randint(-50, 50)
+        self.color[2] += random.randint(-50, 0)
 
     @property
     def x(self):
@@ -46,19 +51,28 @@ class GrainOfSand:
 
     def update(self):
         if self.delay > 0:
-            self.delay -= 1
+            self.delay -= 1  # waiting time before grain starts to move
         else:
-            self._x += self.speed
+            self._x += self.xspeed
             self._y += self.ymod
-            if self.speed < 1.0:
-                self.speed += 0.3
+            if self.xspeed < 1.0:  # redirect moves from left to right
+                self.xspeed += 0.3
             else:
-                self.speed *= self.growth
+                self.xspeed *= self.xgrowth
+
+
+def create_grains():
+    grains = []
+    for x in range(300, 900, GRAIN_SIZE):
+        for y in range(200, 350, GRAIN_SIZE):
+            grains.append(GrainOfSand(x, y, MAXX-2))
+    return grains
 
 
 def draw_grain(frame, x, y, color):
     if x >= MAXX - 1: return
     frame[y:y+GRAIN_SIZE, x:x+GRAIN_SIZE] = color
+
 
 def move_grains(frame, grains):
     for g in grains:
@@ -72,31 +86,35 @@ def move_grains(frame, grains):
     # draw moving grains
     for g in grains:
         if g.moving:
-            draw_grain(frame, g.x, g.y, BEIGE)
+            draw_grain(frame, g.x, g.y, g.color)
 
     return [g for g in grains if not g.finished]
 
 
 background = np.zeros((MAXY, MAXX, 3), np.uint8)
 text = cv2.imread('desert_python.png')
+background[200:350, 300:853] = text
+grains = create_grains()
 
-# create grains
-grains = []
-for x in range(300, 900, GRAIN_SIZE):
-    for y in range(200, 350, GRAIN_SIZE):
-        grains.append(GrainOfSand(x, y, MAXX-2))
 
+frames = []
 while True:
+    # display frames
     frame = background.copy()
-    frame[200:350, 300:853] = text
     grains = move_grains(frame, grains)
-
     cv2.imshow('frame', frame)
+
+    # shrink frame for using it on the web
+    rgb = cv2.cvtColor(frame[100:450:2, 200:-200:2], cv2.COLOR_BGR2RGB)
+    frames.append(rgb)
 
     key = chr(cv2.waitKey(1) & 0xFF)
     if key == 'q':
         break
 
-    time.sleep(0.03)
+    #time.sleep(0.03)
 
 cv2.destroyAllWindows()
+
+    
+imageio.mimsave('sand_animation.gif', frames[::2], fps=20)

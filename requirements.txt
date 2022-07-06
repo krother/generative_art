@@ -3,3 +3,4 @@ pillow
 pandas
 numpy
 scikit-learn
+opencv-python==4.4
