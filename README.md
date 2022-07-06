@@ -73,7 +73,8 @@ Next, try the examples and challenges.
 | [Hexpanda](hexpanda/) | Hexbin plot |
 | [Flower Assembly](flower_movie/) | Animation |
 | [Vortex](vortex/) | Animation |
-
+| [Sand blows away](sand/) | Animation |
+| [Star Wars Titles](starwars/) | Animation |
 
 ----
 
