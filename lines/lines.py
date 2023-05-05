@@ -6,7 +6,8 @@ def draw_line(a, xstart, ystart, xend, yend):
     assert xstart < xend
     x = np.arange(xstart, xend)
     slope = (yend - ystart) / (xend - xstart)
-    y = ystart + ((x - xstart) * slope).round().astype(np.int32)
+    y = ystart + ((x - xstart) * slope).round()
+    y = y.astype(np.int32)
     a[y,x] = 255
 
 a = np.zeros((400, 400), dtype=np.uint8)
