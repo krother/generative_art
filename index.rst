@@ -56,6 +56,7 @@ Elementary Geometry
    gradient/README.rst
    triangles/README.rst
    circles/README.rst
+   spiral/README.rst
    mask/README.rst
    memegen/README.rst
 
