@@ -5,26 +5,30 @@ Let’s draw lines:
 
 |image0|
 
-Here is the code that calculates lines:
+Here is the code that calculates lines between two points:
 
 .. literalinclude:: lines.py
 
 Hints
 -----
 
-This is a rather primitive line drawing function. It applies a simple
-linear function of the form ``ax + b`` The approach has a few
-shortcomings:
+To properly draw lines in all directions, the algorithm has to
+distinguish between a couple of cases:
 
--  you get exactly one y value for each x value, so it does not draw
-   thicker lines
--  you cannot draw vertical lines
--  it is assumed that ``xstart <  xend``. If you swap the coordinates,
-   nothing is drawn.
+* horizontal lines (easy)
+* vertical lines (easy)
+* diagonals where the x dimension is larger than y
+* diagonals where the y dimension is larger than x
 
-Of course you could patch your way around this by sorting the
-coordinates in the function. Also, the ``PIL.ImageDraw`` module contains
-a more powerful line drawing tool.
+For both diagonals one has to interpolate points using a simple
+linear function of the form ``ax + b``.
+The larger dimension determines the number of points, so the interpolation
+function is called twice, with x and y swapped.
+
+.. note::
+   
+   The ``PIL.ImageDraw`` module contains a line drawing tool that
+   allows you to draw thicker lines.   
 
 ----
 
@@ -35,5 +39,5 @@ Create line art (remotely inspired from the artist **Naum Gabo**)
 
 |image1|
 
-.. |image0| image:: ../images/lines.png
+.. |image0| image:: lines.png
 .. |image1| image:: ../images/naumgabo.png
