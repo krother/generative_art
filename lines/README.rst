@@ -12,21 +12,13 @@ Here is the code that calculates lines between two points:
 
 .. literalinclude:: lines.py
 
-Hints
------
 
-To properly draw lines in all directions, the algorithm has to
-distinguish between a couple of cases:
+The algorithm calculates the number of points necessary to have at least one point on each x and y coordinate.
+This is necessary because because it is unknown which of the dimensions is wider.
 
-* horizontal lines (easy)
-* vertical lines (easy)
-* diagonals where the x dimension is larger than y
-* diagonals where the y dimension is larger than x
-
-For both diagonals one has to interpolate points using a simple
-linear function of the form ``ax + b``.
-The larger dimension determines the number of points, so the interpolation
-function is called twice, with x and y swapped.
+For calculating the coordinates, the function ``np.linspace`` does a great job at interpolating.
+One tricky detail is that the numbers will be used for indexing the bigger array, so they have to be integers.
+You need to remember rounding them before the conversion to int, otherwise you would see some strange artifacts.
 
 .. note::
    
