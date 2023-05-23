@@ -3,4 +3,5 @@ pillow
 pandas
 numpy
 scikit-learn
-opencv-python==4.4
+opencv-python>=4.4
+git+https://github.com/krother/academis_sphinx_theme.git
