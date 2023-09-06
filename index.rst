@@ -94,6 +94,7 @@ Effects
    vortex/README.rst
    sand/README.rst
    starwars/README.rst
+   blossom/README.rst
 
 ----
 
