@@ -53,7 +53,7 @@ exporting animated GIFs.
 ::
 
    pip install opencv-python
-   pip install imagio
+   pip install imageio
 
 The code
 --------
