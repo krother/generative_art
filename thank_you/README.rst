@@ -1,18 +1,20 @@
-Logo Animation
-==============
+Thank You
+=========
 
-Here is a simple assembly of the Python logo.
+Here is a simple assembly of a **Thank You** image.
 
 |image0|
 
 How it works:
 -------------
 
-The script uses two halves of the image:
+The script uses two images with characters, and one with the bubble:
 
 |image1|
 
 |image2|
+
+|image3|
 
 The main logic is to use a sine function to calculate smooth movements.
 For frame *i* the coordinate *x* would be:
@@ -38,10 +40,12 @@ exporting animated GIFs.
 The code
 --------
 
-.. literalinclude:: logo.py
+.. literalinclude:: thank_you.py
 
-.. |image0| image:: logo_animation.gif
+.. |image0| image:: thank_you_animation.gif
 
-.. |image1| image:: blue.png
+.. |image1| image:: panda.png
 
-.. |image2| image:: yellow.png
+.. |image2| image:: pingu.png
+
+.. |image3| image:: bubble.png
