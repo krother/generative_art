@@ -30,65 +30,64 @@ Next, try the examples and challenges.
 
 | Example | Topic |
 |-----------|--------|
-| [Creating Images](grayscale/) | Create a grayscale image |
-| [Color](rgb/) | Create a RGB image |
-| [Random Blur](random_blur/) | Create random pixels |
-| [Flags](flags/) | Slicing |
-| [Repeat](repeat/) | Repeating tiles |
+| [Creating Images](grayscale/README.rst) | Create a grayscale image |
+| [Color](rgb/README.rst) | Create a RGB image |
+| [Random Blur](random_blur/README.rst) | Create random pixels |
+| [Flags](flags/README.rst) | Slicing |
+| [Repeat](repeat/README.rst) | Repeating tiles |
 
 
 ## Elementary Geometry
 
 | Example | Topic |
 |-----------|--------|
-| [Stars](stars/) | Indexing |
-| [Lines](lines/) | Arithmetics |
-| [Gradient](gradient/) | Linear space |
-| [Triangles](triangles/) | Matrix operations |
-| [Circles](circles/) | Euclidean Distances |
-| [Mask](mask/) | Indexing |
-| [Meme Generator](memegen/) | Adding text with Pillow |
+| [Stars](stars/README.rst) | Indexing |
+| [Lines](lines/README.rst) | Arithmetics |
+| [Gradient](gradient/README.rst) | Linear space |
+| [Triangles](triangles/README.rst) | Matrix operations |
+| [Circles](circles/README.rst) | Euclidean Distances |
+| [Mask](mask/README.rst) | Indexing |
+| [Meme Generator](memegen/README.rst) | Adding text with Pillow |
 
 ## Machine Learning
 
 | Example | Topic |
 |-----------|--------|
-| [K-Means](kmeans/) | Clustering |
-| [Decision Tree](dtree/) | Color prediction |
-| [Convolution](convolution/) | CNN kernel |
-| [Monte Carlo](montecarlo/) | Sampling |
+| [K-Means](kmeans/README.rst) | Clustering |
+| [Decision Tree](dtree/README.rst) | Color prediction |
+| [Convolution](convolution/README.rst) | CNN kernel |
+| [Monte Carlo](montecarlo/README.rst) | Sampling |
 
 ## Effects
 
 | Example | Topic |
 |-----------|--------|
-| [Rotation](rotate/) | Rotation figure |
-| [Shadow](shadow/) | shadow using a mask |
-| [Warhol](warhol/) | Color channels |
-| [Puzzle](puzzle/) | vstack and hstack |
-| [Contour Lines](contour/) | Gaussian Mixture |
-| [Edge Detection](sobel/) | Sobel Operator |
-| [Dragon Curve](dragon_curve/) | Recursive graphics |
-| [Mandelbrot](mandelbrot/) | Recursive graphics |
-| [Hexpanda](hexpanda/) | Hexbin plot |
-| [Flower Assembly](flower_movie/) | Animation |
-| [Vortex](vortex/) | Animation |
-| [Sand blows away](sand/) | Animation |
-| [Star Wars Titles](starwars/) | Animation |
+| [Rotation](rotate/README.rst) | Rotation figure |
+| [Shadow](shadow/README.rst) | shadow using a mask |
+| [Warhol](warhol/README.rst) | Color channels |
+| [Puzzle](puzzle/README.rst) | vstack and hstack |
+| [Contour Lines](contour/README.rst) | Gaussian Mixture |
+| [Edge Detection](sobel/README.rst) | Sobel Operator |
+| [Dragon Curve](dragon_curve/README.rst) | Recursive graphics |
+| [Mandelbrot](mandelbrot/README.rst) | Recursive graphics |
+| [Hexpanda](hexpanda/README.rst) | Hexbin plot |
 
-----
+## Animations
 
-## More Generative Artists
-
-* [Beetlesbot by Bleeptrack](https://beetles.bleeptrack.de/)
-* [Flowerbot by Bleeptrack](https://blptrck.uber.space/flower/)
-* [GalaxyKate](http://galaxykate.com/)
+| Example | Topic |
+|-----------|--------|
+| [Flower Assembly](flower_movie/README.rst) | puzzle |
+| [Vortex](vortex/README.rst) | rotating parts |
+| [Sand blows away](sand/README.rst) | moving particles |
+| [Star Wars Titles](starwars/README.rst) | text moving in 3D |
+| [Infinity Blossom](blossom/README.rst) | depth illusion |
+| [Thank You](thank_you/README.rst) | scripted assembly |
 
 ----
 
 ## Contact
 
-(c) 2019 Dr. Kristian Rother (`krother@academis.eu`)
+(c) 2024 Dr. Kristian Rother (`kristian.rother@posteo.de`)
 
 Distributed under the conditions of the MIT License. See `LICENSE` for details.
 

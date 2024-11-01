@@ -1,20 +1,18 @@
+:hide-toc:
+
 Graphics with NumPy
 ===================
-
 
 .. figure:: images/title.png
    :alt: title image
 
-.. topic:: Introduction
+In this tutorial you find NumPy exercises that create images.
+It is meant as a gentle introduction to NumPy. It assumes that you have
+made your first steps with Python already. To get the best out of it,
+put it into practice immediately:
 
-   In this tutorial you find NumPy exercises that create images.
-   It is meant as a gentle introduction to NumPy. It assumes that you have
-   made your first steps with Python already. To get the best out of it,
-   put it into practice immediately:
+**paint things – create art – have fun!**
 
-   **paint things – create art – have fun!**
-
-----
 
 Installation
 ------------
@@ -90,38 +88,33 @@ Effects
    dragon_curve/README.rst
    mandelbrot/README.rst
    hexpanda/README.rst
+
+----
+
+Animations
+----------
+
+.. toctree::
+   :maxdepth: 1
+
    flower_movie/README.rst
    vortex/README.rst
    sand/README.rst
    starwars/README.rst
    blossom/README.rst
-   logo/README.rst
-
-----
-
-More Generative Artists
------------------------
-
--  `Beetlesbot by Bleeptrack <https://beetles.bleeptrack.de/>`__
--  `Flowerbot by Bleeptrack <https://blptrck.uber.space/flower/>`__
--  `GalaxyKate <http://galaxykate.com/>`__
+   thank_you/README.rst
 
 ----
 
 .. topic:: License
 
-   © 2023 Dr. Kristian Rother (`kristian.rother@posteo.de`)
+   © 2024 Dr. Kristian Rother (`kristian.rother@posteo.de`)
 
    Usable under the conditions of the MIT License.
    See :download:`LICENSE` for details.
 
-----
+.. topic:: References
 
-References
-----------
-
-`The Brandenburg Gate
-image <https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_abends.jpg>`__
-is by Thomas Wolf, www.foto-tw.de / Wikimedia Commons / CC BY-SA 3.0
-Teaching Programming
-
+   `The Brandenburg Gate
+   image <https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_abends.jpg>`__
+   is by Thomas Wolf, www.foto-tw.de / Wikimedia Commons / CC BY-SA 3.0
