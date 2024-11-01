@@ -11,8 +11,8 @@ How it works:
 The script uses two halves of the image:
 
 |image1|
-|image2|
 
+|image2|
 
 The main logic is to use a sine function to calculate smooth movements.
 For frame *i* the coordinate *x* would be:
@@ -42,6 +42,6 @@ The code
 
 .. |image0| image:: logo_animation.gif
 
-.. |image0| image:: blue.png
+.. |image1| image:: blue.png
 
-.. |image0| image:: yellow.png
+.. |image2| image:: yellow.png
