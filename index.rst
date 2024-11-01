@@ -95,6 +95,7 @@ Effects
    sand/README.rst
    starwars/README.rst
    blossom/README.rst
+   logo/README.rst
 
 ----
 
