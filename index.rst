@@ -37,7 +37,7 @@ First Steps
 
    grayscale/README.rst
    rgb/README.rst
-   random_blur/README.rst
+   random_tiles/README.rst
    flags/README.rst
    repeat/README.rst
 
