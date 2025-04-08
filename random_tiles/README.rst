@@ -27,7 +27,7 @@ Challenges:
    amplitude noise
 -  create grayscale colors
 -  discretize the color values to use only values divisible by 16
--  reproduce images in the style of `1024 Colors <https://www.gerhard-richter.com/de/art/paintings/abstracts/colour-charts-12/1024-colours-6083>` by **Gerhard Richter**
+-  reproduce images in the style of `1024 Colors <https://www.gerhard-richter.com/de/art/paintings/abstracts/colour-charts-12/1024-colours-6083>`__ by **Gerhard Richter**
 
 
 .. |image0| image:: random_tiles.png
