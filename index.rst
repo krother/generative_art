@@ -85,9 +85,17 @@ Effects
    puzzle/README.rst
    contour/README.rst
    sobel/README.rst
+   hexpanda/README.rst
+
+Fractals
+-------
+
+.. toctree::
+   :maxdepth: 1
+
+   fractal_square/README.rst
    dragon_curve/README.rst
    mandelbrot/README.rst
-   hexpanda/README.rst
 
 ----
 
