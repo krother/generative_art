@@ -88,7 +88,7 @@ Effects
    hexpanda/README.rst
 
 Fractals
--------
+--------
 
 .. toctree::
    :maxdepth: 1
