@@ -95,6 +95,7 @@ Fractals
 
    fractal_square/README.rst
    dragon_curve/README.rst
+   tree/README.rst
    mandelbrot/README.rst
 
 ----
