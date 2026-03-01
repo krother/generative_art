@@ -4,8 +4,7 @@ based on R code by Myles Harrison
 http://www.everydayanalytics.ca
 """
 import numpy as np
-from scipy.misc import imshow
-
+from PIL import Image
 
 SIZE = 500
 
@@ -20,8 +19,11 @@ z = np.zeros((SIZE, SIZE)) * 1j
 k = np.zeros((SIZE, SIZE))
 
 for i in range(100):
-    index = z < 2
+    index = np.abs(z) < 2
     z[index] = z[index] ** 2 + c[index]
     k[index] = k[index] + 1
 
-imshow(k)
+
+# save the image
+im = Image.fromarray(k).convert('RGB')
+im.save('mandelbrot.png')

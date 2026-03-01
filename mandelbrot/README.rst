@@ -7,5 +7,5 @@ Drawing the Mandelbrot set:
 
 .. literalinclude:: mandelbrot.py
 
-.. |image0| image:: ../images/mandelbrot.png
+.. |image0| image:: mandelbrot.png
 
